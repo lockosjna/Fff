@@ -1,0 +1,302 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "lộc:)",
+         Animation = "lộc dz:)"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=118756276923451",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script blox fruit"})
+     local Tab2o = MakeTab({Name = "Script all game"})
+     local Tab3o = MakeTab({Name = "Script blue lock"})
+     local Tab4o = MakeTab({Name = "Script meme sea"})
+     local Tab5o = MakeTab({Name = "Script build a boat for treasure"})
+     local Tab6o = MakeTab({Name = "Script dead rail"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "w-azure",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Blox-Fruits-w-azure-hub-10114"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "legendary sword",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "fly",
+    Callback = function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "fix lag",
+    Callback = function()
+lloadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/AKGAMING-FIXLAG"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "auto win",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Blue-Lock:-Rivals-Auto-Farm-30674"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "redz meme",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/MemeSea/refs/heads/main/Source.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "fly to gold",
+    Callback = function()
+loadstring(game:HttpGet("https://orbitsc.net/babft"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "aimbot",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbot-with-bind-30004"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "aimbot",
+    Callback = function()
+--dead rails wall hack aimbot.
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+player.CameraMode = Enum.CameraMode.Classic
+local runService = game:GetService("RunService")
+local StarterGui = game:GetService("StarterGui")
+local camera = workspace.CurrentCamera
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Code by GioBolqvi", -- dont skid ðŸ™ðŸ’”
+    Text = "on Roblox",
+    Duration = 3
+})
+
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "NPC_Lock_GUI"
+screenGui.Parent = game:GetService("CoreGui")
+
+local button = Instance.new("TextButton")
+button.Name = "NPC Lock: ON/OFF"
+button.Size = UDim2.new(0, 150, 0, 50)
+button.Position = UDim2.new(0.5, -75, 0.9, -25)
+button.BackgroundColor3 = Color3.new(0, 0, 0)
+button.TextColor3 = Color3.new(1, 1, 1)
+button.Text = "NPC Lock: OFF"
+button.Font = Enum.Font.Fantasy
+button.TextScaled = true
+button.TextSize = 20
+button.Parent = screenGui
+
+local uicorner = Instance.new("UICorner")
+uicorner.CornerRadius = UDim.new(0, 12)
+uicorner.Parent = button
+
+local dragging = false
+local dragInput, dragStart, startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    button.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+button.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging = true
+        dragStart = input.Position
+        startPos = button.Position
+        
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+button.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+game:GetService("UserInputService").InputChanged:Connect(function(input)
+    if dragging and input == dragInput then
+        update(input)
+    end
+end)
+
+local npcLock = false
+local lastTarget = nil
+local toggleLoop
+
+local function addPlayerHighlight()
+    if player.Character then
+        local highlight = player.Character:FindFirstChild("PlayerHighlightESP")
+        if not highlight then
+            highlight = Instance.new("Highlight")
+            highlight.Name = "PlayerHighlightESP"
+            highlight.FillColor = Color3.new(1, 1, 1)
+            highlight.OutlineColor = Color3.new(1, 1, 1)
+            highlight.FillTransparency = 0.5
+            highlight.OutlineTransparency = 0
+            highlight.Parent = player.Character
+        end
+    end
+end
+
+local function removePlayerHighlight()
+    if player.Character and player.Character:FindFirstChild("PlayerHighlightESP") then
+        player.Character.PlayerHighlightESP:Destroy()
+    end
+end
+
+local function getClosestNPC()
+    local closestNPC = nil
+    local closestDistance = math.huge
+
+    for _, object in ipairs(workspace:GetDescendants()) do
+        if object:IsA("Model") then
+            local humanoid = object:FindFirstChild("Humanoid") or object:FindFirstChildWhichIsA("Humanoid")
+            local hrp = object:FindFirstChild("HumanoidRootPart") or object.PrimaryPart
+            if humanoid and hrp and humanoid.Health > 0 and object.Name ~= "Horse" then
+                local isPlayer = false
+                for _, pl in ipairs(Players:GetPlayers()) do
+                    if pl.Character == object then
+                        isPlayer = true
+                        break
+                    end
+                end
+                if not isPlayer then
+                    local distance = (hrp.Position - player.Character.HumanoidRootPart.Position).Magnitude
+                    if distance < closestDistance then
+                        closestDistance = distance
+                        closestNPC = object
+                    end
+                end
+            end
+        end
+    end
+
+    return closestNPC
+end
+
+button.MouseButton1Click:Connect(function()
+    npcLock = not npcLock
+    if npcLock then
+        button.Text = "NPC Lock: ON"
+        toggleLoop = runService.RenderStepped:Connect(function()
+            local npc = getClosestNPC()
+            if npc and npc:FindFirstChild("Humanoid") then
+                local npcHumanoid = npc:FindFirstChild("Humanoid")
+                if npcHumanoid.Health > 0 then
+                    camera.CameraSubject = npcHumanoid
+                    lastTarget = npc
+                    addPlayerHighlight()
+                else
+                    StarterGui:SetCore("SendNotification", {
+                        Title = "Killed NPC",
+                        Text = npc.Name,
+                        Duration = 0.4
+                    })
+                    lastTarget = nil
+                    removePlayerHighlight()
+                    if player.Character and player.Character:FindFirstChild("Humanoid") then
+                        camera.CameraSubject = player.Character:FindFirstChild("Humanoid")
+                    end
+                end
+            else
+                if player.Character and player.Character:FindFirstChild("Humanoid") then
+                    camera.CameraSubject = player.Character:FindFirstChild("Humanoid")
+                end
+                lastTarget = nil
+                removePlayerHighlight()
+            end
+        end)
+    else
+        button.Text = "NPC Lock: OFF"
+        if toggleLoop then
+            toggleLoop:Disconnect()
+            toggleLoop = nil
+        end
+        removePlayerHighlight()
+        if player.Character and player.Character:FindFirstChild("Humanoid") then
+            camera.CameraSubject = player.Character:FindFirstChild("Humanoid")
+        end
+    end
+end)
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "control ball",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/CONTROL-SCRIPTT/refs/heads/main/CONTROL"))()
+  end
+  })
+  
+    AddButton(Tab2o, {
+     Name = "succac",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ktBtXL1D/raw"))()
+  end
+  })
+  
+      AddButton(Tab2o, {
+     Name = "knife",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/F3X-Workspace-script-that-lets-u-have-a-lsaer-knife-22875"))()
+  end
+  })
+  
