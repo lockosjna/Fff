@@ -299,4 +299,17 @@ loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")()
 loadstring(game:HttpGet("https://rawscripts.net/raw/F3X-Workspace-script-that-lets-u-have-a-lsaer-knife-22875"))()
   end
   })
+
+AddButton(Tab6o, {
+     Name = "auto pond",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
+  end
+  })
   
+AddButton(Tab6o, {
+     Name = "14 phút 1 win",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/badass1ia/Merciful/refs/heads/main/Absurdity"))()
+  end
+  })
